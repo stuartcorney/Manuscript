@@ -1,18 +1,16 @@
-# Title
-Performance of Soil Moisture in a Regional Climate Model for Tasmania
+# Title:Performance of Soil Moisture in a Regional Climate Model for Tasmania
 
 # Abstract
 This project assessed the characteristics of soil moisture across Tasmania in both the Bureau of Meteorology Atmospheric high-resolution Regional Reanalysis (BARRA) and a CSIRO Conformal Cubic Atmospheric model (CCAM) ensemble of simulations. The analysis was over the period 2007-2014 for BARRA and 1961-2100 for CCAM. We compared soil moisture with its related variables (precipitation, temperature and evaporation) to understand the impact of different land surface models within both CCAM and BARRA on their representation of soil moisture. We used BARRA to validate CCAM. We find CCAM and BARRA has similar performance in the surface layers than the bottom layers. CCAM has high correlation with BARRA in the west region of Tasmania, but not the east region. We explored the seasonal variation of soil moisture in CCAM and how it has been projected to change already, as well as into the future. CCAM has performed well compared to BARRA, the projected future changes across Tasmania are plausible, especially in western Tasmania. Soil moisture is projected to decrease rapidly in this region, with an amplification of trends already observed in the current period in comparison historical conditions.
+
+# Key words
+CCAM, BARRA, soil moisture, future change
 
 # Acknowledgments
 Thank my supervisor team: Dr. Stuart Corney, Dr. Rebecca Harris, Dr. Tom Remenyi and Dr. Peter Love for providing important and very helpful guidance across the honours year. They provide essential information around all aspects used in this project. Thank Dr. Stuart Corney for as the leader of the project. Thank Dr. Tom Remenyi and Dr. Peter Love for the guidance of programming, idea and comments of thesis. Thank Dr. Rebecca Harris for guidance of idea and comments of thesis.
 Thank UTAS and OUC for providing the opportunity to do this project in my honours year. Thank Dr. Chun-Hsu Su, Dr. Marcus Thatcher, Dr. Paul Fox-Hughes and Dr. Imtiaz Dharssi for providing essential information about models and soil moisture. 
 Thank my family for supporting and encouraging me in my honours year. Thank Roxana Vasile for proofreading my draft. Thank Chengcheng Yang for providing ideas.
 Thank staffs in IMAS who provide good research environment. 
-
-
-# Key words
-CCAM, BARRA, soil moisture, future change
 
 # 1. Introduction
 With the high intensity of human activities, climate change research has gradually become a hot spot in the field of environment. Many human activities like large-scale burning and extensive land use have increased the concentration of greenhouse gases in the atmosphere, leading to near-surface and atmospheric warming. Global warming affects many aspects of our lives, and has a tremendous impact on the natural environment of the Earth.  
