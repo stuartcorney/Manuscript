@@ -2,7 +2,7 @@
 
 Hi All,
 
-There is for the manuscript.
+There are the manuscript and figures used in the manuscript.
 
 Cheers,
 Ziliang
