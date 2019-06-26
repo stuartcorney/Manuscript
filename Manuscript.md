@@ -1,7 +1,3 @@
-### Note
-
-
-
 # Title
 Performance of Soil Moisture in a Regional Climate Model for Tasmania
 
