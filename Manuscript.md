@@ -214,12 +214,15 @@ Figure 12: Percentage of change in soil moisture in CCAM-ensemble between three 
 
 ## 4.1	The limitation of comparison
 Koster et al. (2009) indicate that direct comparison of soil moisture across different models is not accurate due to different model-specific layer thickness or soil texture. In our study, for the comparison of modelled soil moisture, we assimilated the resolution, scale of study, spatial coverage and soil layers. Ultimately, the underlying equations used to derive soil moisture will determine the performance of soil moisture in the model, so we do not attempt to provide an explanation for the differences between the models. Instead, we identify the factors that may be contributing to these differences.
+
 ## 4.2	Model difference between BARRA-TA and CCAM  
 In 2015/2016, , the base model for regional reanalysis in BARRA was changed from UM to ACCESS-G and the land surface model was changed from JULES to MOSES 2 (Best et al. 2011; Su 2018). The latter model takes different methods to handle the land surface environment (Best et al. 2011; BoM 2010), with more focus on the atmospheric study and increased impact on the absorption of soil moisture around the plant root zone. For the study of soil moisture, we chose to use the JULES operation period in order to provide consistent assessment of CCAM-ensemble, that is, the period 2007-2014.
+
 ## 4.3	Soil moisture with related variables from each model
 Our results indicate that CCAM-ensemble has higher correlations of soil moisture with precipitation and temperature than BARRA-TA, and higher correlation of soil moisture and evaporation in the first two layers. Best et al. (2011) points to multiple factors influencing surface evaporation, like evapotranspiration and bare soil evaporation. Plant root extraction for evapotranspiration can be another way to transport soil moisture into the atmosphere (Kowalczyk et al. 2006). Similarly, precipitation and surface temperature have a more complicated relationship with soil moisture than linear correlation. Our results could suggest that precipitation and surface temperature have a higher weight in adjusting the soil moisture in CCAM-ensemble than in BARRA-TA, and evaporation has a higher weight to this purpose in BARRA-TA than the CCAM-ensemble. 
 
 Our results showed that the top two layers in both CCAM-ensemble and BARRA-TA have a better representation of the relationship between soil moisture and the variables we investigated than the bottom layers. As shown in Figure 2 and 3, a larger time lag exists in BARRA-TA but only slightly larger in CCAM-ensemble, which could cause lower correlation values in the bottom layers between CCAM-ensemble and BARRA-TA. The correlation values of soil moisture between CCAM-ensemble and BARRA-TA are higher in the west and north Tasmania. In our study we found that the area of high correlation decreases with depth in CCAM-ensemble and BARRA-TA, and much faster in the latter. The different performance through layers, region and between two models could be caused by the different performance of layer, region within soil between CCAM and BARRA-TA, discussed in the following section. 
+
 ## 4.4	Difference in soil moisture
 ## 4.4.1	Soil moisture layer
 The mean value in the first two top layers increased with depth for both CCAM-ensemble and BARRA-TA. For the bottom two layers, the soil profile decreased in BARRA-TA but continued to increase in CCAM-ensemble (Figure 6). The time-series of the bottom layers and in particular layer 4, also contained more random interannual variability (Figure 7). Simulation between the top and bottom two layers was different between BARRA-TA and CCAM-ensemble. There is a larger difference between the two surface layers than the bottom two layers.
@@ -231,14 +234,18 @@ When the water from precipitation reaches the ground, whether it infiltrates the
 In the bottom layers, the capacity of soil moisture is dominated by the parameterization of the soil, such as saturation content (See Table 2), to hold moisture and the drainage into the underground water. In CCAM, the CABLE model only uses the field capacity parameter and excess water drains into a groundwater reservoir (and out of the model) (Kowalczyk et al. 2006). In BARRA-TA on the other hand, through JULES, the drainage into groundwater is controlled not only by the field capacity of the soil but also by the absorption capacity of soil, which means that water drainage continues as long as the bottom is oversaturated in moisture (Moore 2007). This difference of an open boundary at the bottom layer explains the more unorderly, random conditions in BARRA-TA. The total depth of original six soil layers is 4.6 m in CCAM and the total depth of four layers is 3.0 m in BARRA-TA. For facilitating the comparison between the two models, we considered the first 3.0 m in CCAM because they are less influenced by the capacity of groundwater and more by the function within the soil layers. This difference could cause a divergence between BARRA-TA and CCAM in the simulations of bottom layers.
 
 Due to different environmental factors and boundary conditions, there is different lag of time between CCAM-ensemble and BARRA-TA and between surface layers and bottom layers. The performance of soil moisture with related variable is more similar in the surface layers than the bottom layers between CCAM-ensemble and BARRA-TA.
+
 ## 4.4.2	Soil moisture region
 In the spatial correlation of soil moisture between CCAM-ensemble and BARRA-TA, we found the correlation values of soil moisture are higher in the west and north of Tasmania. The topography of south-east Tasmania is mostly lowland, resulting in mostly dry area with lower annual precipitation than the north and west mountainous region (Grose et al. 2010; White et al. 2013). In dry areas, the change of soil moisture is more closely related to episodic precipitation. But in wet areas, soil moisture will dry out or filtrate slowly over time, which can be easier to simulate in both models. Hence in dry areas, the timing of simulated precipitation is crucial for an accurate modelled output of soil moisture.
 
 Technically, the characteristics of soil could be represented by the soil type (Koster et al. 2009). Soil type in BARRA-TA has various change spatially, but is more consistent in the east region than soil type in CCAM (Figure 1). CCAM has only two separate soil types, and has uneven distribution in the east region. Therefore, soil type in BARRA-TA could be more realistic to represent the characteristics of soil. The soil types in BARRA-TA and CCAM are composed of multiple parameters (Table 2), they are constant in time and do not change with precipitation, which can be a limitation, especially for applications on a small spatial scale over a long period of time (Corney et al. 2010).
+
 ## 4.4.3	Soil moisture value
 We found soil moisture in BARRA-TA was typically higher than in the CCAM-ensemble. Previous studies showed that this could arise from the method used to model the hydrological processes. For example, in JULES, there are two pathways for the water once it reaches the soil surface: infiltration into the soil and surface runoff (Best et al. 2011). In BARRA, JULES has runoff switched off, as the river routing is not included for the limit-area model (Su 2018). In CCAM, CABLE takes surface runoff as one of the dominant factors for the flux of infiltration (Kowalczyk et al. 2006). The large source of water into the soil in BARRA-TA may cause these higher values than CCAM. This study focused on the general trends, rather than the absolute soil moisture values.
+
 ## 4.5	Seasonal variation of soil moisture between CCAM-ensemble and BARRA-TA
 This study shows a lower correlation between CCAM-ensemble and BARRA-TA over most grid cells in winter compared to the other three seasons. Also, low correlation was observed in the east region in summer, and to a smaller degree in autumn and spring. The grid cells with lower correlation are mostly dry in summer. The difference in seasonal maximums across the four seasons in the CCAM-ensemble and BARRA-TA could cause the lower values observed in the winter.
+
 ## 4.6	Future Change in Seasonal Variation
 Model predictions show that wetter area could decrease in the future in the east region of Tasmania, while the drier area could increase. This could be caused by the rise of temperature in Tasmania, while the drier area could increase. 
 
@@ -249,38 +256,63 @@ Spatially, the drier area with large magnitude (more than 10% approximately) has
 Supported by BARRA-TA, CCAM can be confident to project the future change in the region, where the soil moisture will decrease rapidly (approximately more than 10 %)
 
 # 5. Conclusion
-
 Our results showed that, in the CCAM-ensemble, soil moisture is better represented in the top two layers than in the bottom layers. In Tasmania, soil moisture has high simulation in the west region and low simulation in the east region, especially the east coastline, where has episodic and drier soil. Compared with BARRA-TA, precipitation and surface temperature in CCAM-ensemble have a higher weight in adjusting soil moisture, but evaporation has low evaporation in adjusting soil moisture in here. In the future, the change would be larger than the current change. The dry region in Tasmania will increase, and the wet region will decrease. Supported by BARRA-TA, CCAM can be confident to project the future change in the region, where the soil moisture will decrease fast (more than 10 % approximately).
 
 # Reference
-
 Best M et al. (2011) The Joint UK Land Environment Simulator (JULES), model description–Part 1: energy and water fluxes Geoscientific Model Development 4:677-699
+
 BoM A (2010) Operational implementation of the ACCESS Numerical Weather Prediction systems NMOC Operations Bulletin 83
+
 Bramer I et al. (2018) Advances in monitoring and modelling climate at ecologically relevant scales. In:  Advances in ecological research, vol 58. Elsevier, pp 101-161
+
 Cubasch U, Wuebbles D, Chen D, et al (2013) Introduction. In ‘Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change.’ K Plattner, M Tignor, SK Allen, J Boschung, A Nauels, Y Xia, V Bex, PM Midgley (Cambridge, UK, New York Cambridge Univ Press 2013), http//www Clim org/images/report/WG1AR5_Chapter01_FINAL pdf 119–158. doi: 10.1017/CBO9781107415324.007
+
 Corney S et al. (2010) Climate Futures for Tasmania: climate modelling technical report 
+
 Dee D, Balmaseda M, Balsamo G, Engelen R, Simmons A, Thépaut J-N (2014) Toward a consistent reanalysis of the climate system Bulletin of the American Meteorological Society 95:1235-1248
+
 Dee DP et al. (2011) The ERA‐Interim reanalysis: Configuration and performance of the data assimilation system Quarterly Journal of the royal meteorological society 137:553-597
+
 Engelbrecht FA et al. (2011) Multi-scale climate modelling over Southern Africa using a variable-resolution global model Water Sa 37:647-658 doi:10.4314/wsa.v37i5.2
+
 Essery R, Clark DB (2003) Developments in the MOSES 2 land-surface model for PILPS 2e Global and Planetary Change 38:161-164
+
 Grose M et al. (2010) Climate Futures for Tasmania: general climate impacts technical report 
+
 Harris R, Remenyi T, Fox-Hughes P, Love P, Phillips H, Bindoff N An assessment of the viability of prescribed burning as a management tool under a changing climate: a Tasmanian case study. In: Research Forum 2017: Proceedings from the Research Forum at the Bushfire and Natural Hazards CRC and AFAC Conference, 2017. Bushfire and Natural Hazards CRC, pp 48-63
+
 Hartmann DL et al. (2013) Observations: atmosphere and surface. In:  Climate change 2013 the physical science basis: Working group I contribution to the fifth assessment report of the intergovernmental panel on climate change. Cambridge University Press, 
+
 Hoffmann P, Katzfey JJ, McGregor JL, Thatcher M (2016) Bias and variance correction of sea surface temperatures used for dynamical downscaling Journal of Geophysical Research-Atmospheres 121:12877-12890 doi:10.1002/2016jd025383
+
 Jakob D, Su C, Eizenberg N, Kociuba G, Steinle P, Fox-Hughes P, Bettio L (2017) An atmospheric high-resolution regional reanalysis for Australia Bull Aust Meteorol Oceanogr Soc 30:16-23
+
 Koster RD, Guo Z, Yang R, et al (2009) On the nature of soil moisture in land surface models. J Clim 22:4322–4335. doi: 10.1175/2009JCLI2832.1
+
 Kowalczyk E, Wang Y, Law R, Davies H, McGregor J, Abramowitz G (2006) The CSIRO Atmosphere Biosphere Land Exchange (CABLE) model for use in climate models and as an offline model CSIRO Marine and Atmospheric Research Paper 13:42
+
 Kowalczyk EA, Garratt JR, Krummel PB (1994) Implementation of a soil-canopy scheme into the CSIRO GCM-regional aspects of the model response. CSIRO, 
+
 McGregor JL (2015) Recent developments in variable-resolution global climate modelling Climatic Change 129:369-380 doi:10.1007/s10584-013-0866-5
+
 McGregor JL, Nguyen KC, Kirono DGC, Katzfey JJ (2016) High-resolution climate projections for the islands of Lombok and Sumbawa, Nusa Tenggara Barat Province, Indonesia: Challenges and implications Climate Risk Management 12:32-44 doi:10.1016/j.crm.2015.10.001
+
 Moore R (2007) The PDM rainfall-runoff model Hydrology and Earth System Sciences Discussions 11:483-499
+
 Nguyen KC, Katzfey JJ, McGregor JL (2012) Global 60 km simulations with CCAM: evaluation over the tropics Climate Dynamics 39:637-654 doi:10.1007/s00382-011-1197-8
+
 Peng J, Niesel J, Loew A, Zhang S, Wang J (2015) Evaluation of satellite and reanalysis soil moisture products over southwest China using ground-based measurements Remote sensing 7:15729-15747
+
 Pook M, Risbey J, McIntosh P East coast lows, atmospheric blocking and rainfall: a Tasmanian perspective. In: IOP Conference Series: Earth and Environmental Science, 2010. vol 1. IOP Publishing, p 012011
+
 Schulzweida U, Kornblueh L, Quast R (2006) CDO user’s guide Climate data operators, Version 1
+
 Seneviratne SI et al. (2010) Investigating soil moisture–climate interactions in a changing climate: A review Earth-Science Reviews 99:125-161
+
 Su C-H, Eizenberg, N., Steinle, P., Jakob, D., Fox-Hughes, P., White, C. J., Rennie, S., Franklin, C., Dharssi, I., and Zhu, H. (2018) BARRA v1.0: The Bureau of Meteorology Atmospheric high-resolution Regional Reanalysis for Australia Geoscientific Model Development
+
 White CJ et al. (2013) On regional dynamical downscaling for the assessment and projection of temperature and precipitation extremes across Tasmania, Australia Climate dynamics 41:3145-3165
+
 Yamazaki T, Miyakawa K Soil Moisture Sensing Experiments for Water Management in Pear Fields. In: Proceedings of the 6th International Conference on Informatics, Environment, Energy and Applications, 2017. ACM, pp 56-59
 
 # Appendices
