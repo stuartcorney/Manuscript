@@ -16,6 +16,10 @@ This project assessed the characteristics of soil moisture across Tasmania in bo
 
 # Key words
 CCAM, BARRA, soil moisture, future change
+<!---
+These need work. 
+-->
+I think we need to add some more here
 
 # Acknowledgments
 Thank my supervisor team: Dr. Stuart Corney, Dr. Rebecca Harris, Dr. Tom Remenyi and Dr. Peter Love for providing important and very helpful guidance across the honours year. They provide essential information around all aspects used in this project. Thank Dr. Stuart Corney for as the leader of the project. Thank Dr. Tom Remenyi and Dr. Peter Love for the guidance of programming, idea and comments of thesis. Thank Dr. Rebecca Harris for guidance of idea and comments of thesis.
