@@ -9,7 +9,7 @@ This is how you add a comment
 Tom: Great start Ziliang. I'll have a look through and see how we go. 
 -->
 
-Thanks tom I consider these. 
+Thanks tom I will consider these. Ok. I think we should clean all this up now. 
 
 # Abstract
 This project assessed the characteristics of soil moisture across Tasmania in both the Bureau of Meteorology Atmospheric high-resolution Regional Reanalysis (BARRA) and a CSIRO Conformal Cubic Atmospheric model (CCAM) ensemble of simulations. The analysis was over the period 2007-2014 for BARRA and 1961-2100 for CCAM. We compared soil moisture with its related variables (precipitation, temperature and evaporation) to understand the impact of different land surface models within both CCAM and BARRA on their representation of soil moisture. We used BARRA to validate CCAM. We find CCAM and BARRA has similar performance in the surface layers, but different behaviour in the bottom layers. CCAM has high correlation with BARRA in the west region of Tasmania, but not the east region. We explored the seasonal variation of soil moisture in CCAM and how it has been projected to change already, as well as into the future. CCAM has performed well compared to BARRA, the projected future changes across Tasmania are plausible, especially in western Tasmania. Soil moisture is projected to decrease rapidly in this region, with an amplification of trends already observed in the current period in comparison historical conditions.
